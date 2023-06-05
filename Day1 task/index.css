@@ -1,0 +1,50 @@
+html, body{
+    padding: 0;
+    margin:0;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:#D8FFDB;
+    border-bottom: 0.5px solid rgb(55, 245, 229);
+    position: sticky;
+    top:0;
+
+}
+.cta{
+    display: flex;
+    justify-self: end;
+    /* flex:1; */
+    
+}
+.cta >div{
+  
+    margin-right: 10px;
+}
+.links{
+display: flex;
+flex:1;
+gap:50px;
+}
+.logo{
+margin-right: 100px;
+}
+.para {
+    overflow: auto;
+    margin: 10px 3% 10px 3%;
+    
+}
+a{
+    text-decoration: none;
+    color: #364037;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.images img{
+    width:300px;
+    height: 300px;
+}
